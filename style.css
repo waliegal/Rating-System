@@ -32,6 +32,8 @@ body {
     height: 410px;
     background-color: var(--dark-blue);
     border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
 .content {
     display: flex;
@@ -83,6 +85,10 @@ p {
     margin-bottom: 30px;
     color: var(--medium-grey, 1);
 }
+.one:hover, .two:hover ,.three:hover,.four:hover, .five:hover 
+{
+    background-color: var(--orange);
+}
 
 .submit {
     background: var(--orange);
@@ -94,6 +100,41 @@ p {
     letter-spacing: 4px;
 }
 
+.submit:hover {
+    background-color: white;
+    color: var(--orange);
+}
+
+
+/* Thank you page */
+.thankyouimg {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.score {
+    border-radius: 10px;
+    height: 30px;
+    width: 170px;
+    margin: 0 auto;
+    background-color: hsl(211, 27%, 34%);
+    opacity: 70%;
+    color: var(--orange);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thankyou {
+    text-align: center;
+}
 
 
 
